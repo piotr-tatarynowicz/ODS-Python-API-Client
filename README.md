@@ -34,7 +34,7 @@ If you want to find out what is the date range available for the selected report
 
 ### 6a. Edit 'post_config.py' file - place your request body into the 'settings' variable.
 
-The "settings" variable is responsible for the request body; in there you can place specific attributes to create any UI item, e.g. an ad unit. For more information visit  https://docs.openx.com/Content/developers/platform_api/api_ref.html
+The "settings" variable is responsible for the request body; in there you can place specific attributes to create any UI item, e.g. an ad unit. For more information visit https://docs.openx.com/developers/api-ref/
 
 ### 7. Run the python script
 - 'pull_fields.py' to see all the available fields
@@ -43,7 +43,7 @@ The "settings" variable is responsible for the request body; in there you can pl
 
 - 'date_range.py' to check what is the available date range for selected report (earliest possible StartData, closest possible EndDate)
 
-<code>$ python3 pull_report.py</code>
+<code>$ python3 date_range.py</code>
 
 - 'pull_reports.py' to pull your report
 
